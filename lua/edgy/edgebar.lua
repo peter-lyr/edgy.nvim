@@ -207,7 +207,7 @@ function M:resize()
   end
 
   -- always override these options before resizing
-  vim.o.winminheight = 0
+  vim.o.winminheight = 1
   vim.o.winminwidth = 1
 
   local long = self.vertical and "height" or "width"
